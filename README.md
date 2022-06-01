@@ -18,22 +18,15 @@ This card will only work if you've installed one of the custom-component's below
 |[Kodi Recently Added](https://github.com/boralyl/kodi-recently-added)|[boralyl](https://github.com/boralyl)
 |[Mylar](https://github.com/DarkSir23/sensor.mylar)|[DarkSir23](https://github.com/DarkSir23)
 |[Plex Recently Added](https://github.com/custom-components/sensor.plex_recently_added)|[mayker](https://github.com/maykar)
-|[Radarr Upcoming Media](https://github.com/custom-components/sensor.radarr_upcoming_media)|[mayker](https://github.com/maykar)
+|[Radarr Upcoming Media](https://github.com/raman325/sensor.radarr_upcoming_media)|[raman325](https://github.com/raman325)
 |[SickChill](https://github.com/youdroid/home-assistant-sickchill)|[youdroid](https://github.com/youdroid)
-|[Sonarr Upcoming Media](https://github.com/custom-components/sensor.sonarr_upcoming_media)|[mayker](https://github.com/maykar)
+|[Sonarr Upcoming Media](https://github.com/raman325/sensor.sonarr_upcoming_media)|[raman325](https://github.com/raman325)
 |[Trakt](https://github.com/custom-components/sensor.trakt)|[iantrich](https://github.com/iantrich)
 
 ### Issues
 Read through these two resources before posting issues to GitHub or the forums.
-* [troubleshooting guide](https://github.com/custom-cards/upcoming-media-card/blob/master/troubleshooting.md)
+* [troubleshooting guide](https://github.com/raman325/upcoming-media-card/blob/master/troubleshooting.md)
 * [@thomasloven's lovelace guide](https://github.com/thomasloven/hass-config/wiki/Lovelace-Plugins).
-
-
-## Supporting Development
-- :coffee:&nbsp;&nbsp;[Buy me a coffee](https://www.buymeacoffee.com/FgwNR2l)
-- :1st_place_medal:&nbsp;&nbsp;[Tip some Crypto](https://github.com/sponsors/maykar)
-- :heart:&nbsp;&nbsp;[Sponsor me on GitHub](https://github.com/sponsors/maykar)
-  <br><br>
 
 ## Features:
 * Poster and Fan Art views
@@ -65,7 +58,7 @@ This goes into one of your views under "cards:" in the same file
     entity: sensor.sonarr_upcoming_media
 ```
 
-If you're not updating using [tracker-card](https://github.com/custom-cards/tracker-card) and/or [custom-updater](https://github.com/custom-components/custom_updater) be sure that you are adding to a version number at the end of your lovelace resources when you update your cards, like so:
+Be sure that you are adding to a version number at the end of your lovelace resources when you update your cards, like so:
 
 ```
 resources:
